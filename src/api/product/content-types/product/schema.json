@@ -63,6 +63,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "heigth": {
+      "type": "biginteger"
+    },
+    "width": {
+      "type": "biginteger"
     }
   }
 }

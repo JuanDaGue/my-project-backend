@@ -688,6 +688,8 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     taste: Schema.Attribute.Enumeration<['sweet', 'citric']>;
     isFeatured: Schema.Attribute.Boolean;
     category: Schema.Attribute.Relation<'oneToOne', 'api::category.category'>;
+    heigth: Schema.Attribute.BigInteger;
+    width: Schema.Attribute.BigInteger;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
