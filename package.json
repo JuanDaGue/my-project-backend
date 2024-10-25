@@ -12,27 +12,28 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.0.3",
-    "@strapi/plugin-users-permissions": "5.0.3",
-    "@strapi/strapi": "5.0.3",
+    "@strapi/plugin-cloud": "4.25.14",
+    "@strapi/plugin-users-permissions": "4.25.14",
+    "@strapi/strapi": "4.25.14",
     "better-sqlite3": "9.4.3",
     "cors": "^2.8.5",
     "fs-extra": "^10.0.0",
     "mercadopago": "^2.0.15",
     "mime-types": "^2.1.27",
     "next": "^14.2.15",
-    "pg": "^8.13.0",
+    "package-json": "^10.0.1",
+    "pg": "^8.13.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
+    "react-router-dom": "5.3.4",
     "strapi-neon-tech-db-branches": "^0.1.18",
-    "styled-components": "^6.0.0"
+    "styled-components": "5.3.3",
+    "typescript": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "^5"
+    "@types/react-dom": "^18"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
